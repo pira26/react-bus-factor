@@ -1,8 +1,3 @@
-<<<<<<< HEAD
 {   
 "presets" : ["es2015", "react"]
-=======
-{
- "presets" : ["es2015", "react"]
->>>>>>> c977a0afb62df8b9aee03cf5d3af9d06964e76c2
 }
