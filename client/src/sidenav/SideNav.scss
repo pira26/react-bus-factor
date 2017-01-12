@@ -1,4 +1,12 @@
 #right {
-	display:flex;
-	justify-content :flex-end;
+	z-index: 3;
+	position : absolute;
+	left :90%;
+	top: 15px;
+}
+
+#burger {
+	padding : 10px;
+	background-color: white;
+	border-radius: 100%;
 }
