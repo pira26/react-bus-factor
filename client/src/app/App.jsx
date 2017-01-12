@@ -9,13 +9,12 @@ import Section from '../section/Section.jsx';
 import Nav from '../nav/Nav.jsx';
 import Footer from '../footer/Footer.jsx';
 import Grid from '../grid/Grid.jsx';
+import Slider from '../slider/Slider.jsx';
 
 class App extends React.Component {
-
   constructor (props) {
     super(props);
   }
-
   render () {
     return (
       <div>
@@ -23,6 +22,7 @@ class App extends React.Component {
         <Parallax imgSrc="http://materializecss.com/images/parallax1.jpg" />
         <Nav />
         <Section>
+          <Slider />
           <Grid />
         </Section>
         <Parallax imgSrc="http://materializecss.com/images/parallax2.jpg" />
@@ -31,5 +31,4 @@ class App extends React.Component {
     )
   }
 }
-
 export default App;
