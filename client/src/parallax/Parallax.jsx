@@ -14,7 +14,7 @@ class Parallax extends React.Component {
   render () {
     //this.props.imgSrc a la valeur de l'attribut imgSrc dans <Parallax imgSrc="value" />
     return (
-      <div className="parallax-container">
+      <div id="header" className="parallax-container">
         <div className="parallax"><img src={this.props.imgSrc} /></div>
       </div>
     )
