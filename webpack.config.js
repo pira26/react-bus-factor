@@ -23,7 +23,7 @@ module.exports = {
   },
   plugins: [
 
-    new webpack.optimize.CommonsChunkPlugin( // Permet de découper mon bundle en plusieurs bouts. Un bout 
+    new webpack.optimize.CommonsChunkPlugin( // Permet de découper mon bundle en plusieurs bouts. Un bout
       'vendors',
       'vendors.bundle.js'
     ),
@@ -42,7 +42,7 @@ module.exports = {
       'React': 'react',
       'window.React': 'react',
       '{render}': 'react-dom',
-      '{window.render}': 'react-com',
+      '{window.render}': 'react-com'
     }),
 
     new webpack.optimize.DedupePlugin()
