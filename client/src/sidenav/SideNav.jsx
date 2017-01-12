@@ -1,3 +1,5 @@
+import './SideNav.scss'
+
 /**
 * @desc Ce component permet d'intégrer facilement le module sidenav de materialize
 */
@@ -14,7 +16,7 @@ class SideNav extends React.Component {
   render () {
     return (
       <div>
-        <ul id="slide-out" className="side-nav">
+        <ul id="slide-out" className="side-nav" >
           <li><div className="userView">
             <div className="background">
               <img src="http://materializecss.com/images/office.jpg" />
@@ -29,7 +31,7 @@ class SideNav extends React.Component {
           <li><a className="subheader">Subheader</a></li>
           <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
         </ul>
-        <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
+        <div id="right"><a href="#" data-activates="slide-out" className="button-collapse"><i id="burger" className="material-icons">menu</i></a></div>
       </div>
     )
   }

@@ -3,6 +3,7 @@
 */
 
 import Card from '../card/Card.jsx';
+import './grid.scss';
 
 class Grid extends React.Component {
 
