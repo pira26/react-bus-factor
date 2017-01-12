@@ -1,8 +1,8 @@
-/**
-* @desc Ce component permet d'intégrer facilement le module sidenav de materialize
-*/
+ import './Footer.css';
+ 
 
 class Footer extends React.Component {
+  
 
   // Le HTML qui sera incorporé à chaque fois que <SideNav /> est appelé
   render () {
