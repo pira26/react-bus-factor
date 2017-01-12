@@ -21,7 +21,7 @@ class Grid extends React.Component {
           {
             this.state.names.map((n)=> {
               return (
-                <div className="col s4" key={n}>
+                <div className="col s12 l3 m4" key={n}>
                   <Card content={n} />
                 </div>
               )
